@@ -2175,7 +2175,7 @@ var MyProduction = function () {
             if (video2.paused) {
                 video2.play();
             }
-            loader.load('/modern_bedroom2.glb', function (glb) {
+            loader.load('/introduction/modern_bedroom2.glb', function (glb) {
                 screenModal.current = glb;
                 var item = screenModal.current.scene.getObjectByName("ModernBedroom_Duvet_0");
                 var ModernBedroom_Pillows_0 = screenModal.current.scene.getObjectByName("ModernBedroom_Pillows_0");
@@ -2229,7 +2229,7 @@ var MyProduction = function () {
             });
         }
     };
-    return ((0, jsx_runtime_1.jsxs)("div", { children: [(0, jsx_runtime_1.jsx)("div", { ref: currentRef }, void 0), (0, jsx_runtime_1.jsx)("video", { id: "agileshot_video", src: "/agileshot.mp4", ref: videoRef, style: { display: "none" }, autoPlay: true, playsInline: true, loop: true, muted: true }, void 0), (0, jsx_runtime_1.jsx)("video", { id: "neuron_video", src: "/neuron.mp4", ref: neuronVideoRef, style: { display: "none" }, autoPlay: true, playsInline: true, loop: true, muted: true }, void 0), (0, jsx_runtime_1.jsx)(Spins, __assign({ style: { display: "".concat(loading ? 'flex' : 'none') } }, { children: (0, jsx_runtime_1.jsx)(antd_1.Spin, { size: "large" }, void 0) }), void 0)] }, void 0));
+    return ((0, jsx_runtime_1.jsxs)("div", { children: [(0, jsx_runtime_1.jsx)("div", { ref: currentRef }, void 0), (0, jsx_runtime_1.jsx)("video", { id: "agileshot_video", src: "/introduction/agileshot.mp4", ref: videoRef, style: { display: "none" }, autoPlay: true, playsInline: true, loop: true, muted: true }, void 0), (0, jsx_runtime_1.jsx)("video", { id: "neuron_video", src: "/introduction/neuron.mp4", ref: neuronVideoRef, style: { display: "none" }, autoPlay: true, playsInline: true, loop: true, muted: true }, void 0), (0, jsx_runtime_1.jsx)(Spins, __assign({ style: { display: "".concat(loading ? 'flex' : 'none') } }, { children: (0, jsx_runtime_1.jsx)(antd_1.Spin, { size: "large" }, void 0) }), void 0)] }, void 0));
 };
 exports["default"] = MyProduction;
 var templateObject_1;
