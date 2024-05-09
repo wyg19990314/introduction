@@ -2103,7 +2103,7 @@ var MyProduction = function () {
             }
             else if (showAgileshotInfo.current == 3) {
                 var texLoader = new THREE.TextureLoader(); //纹理贴图加载器
-                var texture = texLoader.load('/images/agileshotProduction.jpg');
+                var texture = texLoader.load('/introduction/images/agileshotProduction.jpg');
                 agileshotMesh.current.material = new THREE.MeshBasicMaterial({
                     map: texture
                 });
@@ -2129,7 +2129,7 @@ var MyProduction = function () {
             }
             else if (showNeuronInfo.current == 3) {
                 var texLoader = new THREE.TextureLoader(); //纹理贴图加载器
-                var texture = texLoader.load('/images/neuronIntroduce.jpg');
+                var texture = texLoader.load('/introduction/images/neuronIntroduce.jpg');
                 neuronMesh.current.material = new THREE.MeshBasicMaterial({
                     map: texture
                 });
