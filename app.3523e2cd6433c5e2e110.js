@@ -2207,7 +2207,7 @@ var MyProduction = function () {
                     neuronMesh.current.translateZ(-2.9);
                     neuronMesh.current.translateX(1.65);
                     var texLoader = new THREE.TextureLoader(); //纹理贴图加载器
-                    var texture = texLoader.load('/images/production.jpg');
+                    var texture = texLoader.load('/introduction/images/production.jpg');
                     var productionMaterial = new THREE.MeshBasicMaterial({
                         map: texture
                     });
